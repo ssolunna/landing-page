@@ -9,7 +9,9 @@ body {
   margin: 0;
 }
 
-.links {
+ul {
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 30px;
 }
@@ -19,7 +21,7 @@ a {
 }
 
 .header {
-  height: 480px;
+  height: 470px;
   background-color: #1f2937;
   padding: 20px 200px;
   display: flex;
@@ -41,12 +43,16 @@ a {
 
 .title {
   display: flex;
+  justify-content: space-between;
+  min-height: 250px;
+  gap: 30px;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  align-items: flex-start;
+  flex-grow: 1;
 }
 
 .hero :nth-of-type(1) {
@@ -61,10 +67,21 @@ a,
   color: #E5E7EB;
 }
 
-.hero button {
+.hero button.signup {
   background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 6px 30px;
+}
+
+.image {
+  background-color: grey;
+  min-width: 470px;
+  flex-grow: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  color: white;
 }
