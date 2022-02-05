@@ -18,14 +18,17 @@ ul {
 
 a {
   text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
+/* Header */
 .header {
-  height: 470px;
   background-color: #1f2937;
   padding: 20px 200px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logotxt {
@@ -34,35 +37,28 @@ a {
   font-weight: 700;
 }
 
-.navbar {
+/* Hero section */
+.hero {
+  background-color: #1f2937;
+  padding: 100px 200px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
 }
 
 .title {
   display: flex;
-  justify-content: space-between;
-  min-height: 250px;
-  gap: 30px;
-}
-
-.hero {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex-grow: 1;
+  margin-right: 20px;
 }
 
-.hero :nth-of-type(1) {
+.title :nth-of-type(1) {
   color: #F9FAF8;
   font-weight: 700;
   font-size: 48px;
 }
 
-a,
-.hero :nth-of-type(2) {
+.title :nth-of-type(2) {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -79,9 +75,11 @@ a,
 .image {
   background-color: grey;
   min-width: 470px;
-  flex-grow: 2;
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
+
+/* Information section */
