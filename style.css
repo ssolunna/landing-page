@@ -83,16 +83,16 @@ a {
 }
 
 /* Information section */
-
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 35px 0px;
+  padding: 35px 0px 90px;
 }
 
 .info .random-text {
+  color: #1f2937;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 35px;
@@ -124,4 +124,29 @@ a {
 .box-text {
   text-align: center;
   color: grey;
+}
+
+/* Quote section */
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 310px;
+  gap: 5px;
+}
+
+.quote .text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.quote .author {
+  color: #1f2937;
+  font-weight: 700;
+  font-size: 22px;
+  align-self: flex-end;
+  margin-right: 30px;
 }
