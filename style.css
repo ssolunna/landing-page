@@ -31,7 +31,7 @@ a {
   align-items: center;
 }
 
-.logotxt {
+.header-logo {
   font-size: 24px;
   color: #F9FAF8;
   font-weight: 700;
@@ -83,3 +83,45 @@ a {
 }
 
 /* Information section */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+.info .random-text {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+.boxes.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.boxes.container .sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 150px;
+}
+
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+}
+
+.box-text {
+  text-align: center;
+  color: grey;
+}
