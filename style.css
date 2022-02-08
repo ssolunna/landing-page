@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+@font-face {
+  font-family: Wondertype;
+  src: url('fonts/WonderType-Regular.otf');
+} 
+
 body {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -19,30 +24,36 @@ ul {
   gap: 30px;
 }
 
+
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #E5E7EB;
+  color: #3b2409;
 }
 
 /* Header */
-.header {
-  background-color: #1f2937;
+header {
+  background-color: #f5c300;
   padding: 20px 200px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
-.header-logo {
+header .name {
+  width: 800px;
+  height: auto;
+  /* font-family: WonderType, Roboto, sans-serif;
   font-size: 24px;
-  color: #F9FAF8;
-  font-weight: 700;
+  color: #3b2409;
+  font-weight: 700; */
 }
 
 /* Hero section */
 .hero {
-  background-color: #1f2937;
+  background-color: #f5c300;
   padding: 100px 200px;
   display: flex;
   align-items: center;
@@ -58,14 +69,14 @@ a {
 }
 
 .title :nth-of-type(1) {
-  color: #F9FAF8;
+  color: #3b2409;
   font-weight: 700;
   font-size: 48px;
 }
 
 .title :nth-of-type(2) {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #3b2409;
 }
 
 .hero button.signup {
@@ -99,7 +110,7 @@ a {
 }
 
 .info .random-text {
-  color: #1f2937;
+  color: #f5c300;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 35px;
@@ -135,7 +146,7 @@ a {
 
 /* Quote section */
 .quote {
-  background-color: #E5E7EB;
+  background-color: #3b2409;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,13 +156,13 @@ a {
 }
 
 .quote .text {
-  color: #1f2937;
+  color: #f5c300;
   font-size: 36px;
   font-weight: 100;
 }
 
 .quote .author {
-  color: #1f2937;
+  color: #f5c300;
   font-weight: 700;
   font-size: 22px;
   align-self: flex-end;
@@ -188,8 +199,8 @@ a {
 
 /* Footer */
 .footer {
-  background-color: #1f2937;
-  color: #E5E7EB;
+  background-color: #f5c300;
+  color: #3b2409;
   text-align: center;
   padding: 35px 200px;
 }
