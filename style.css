@@ -2,16 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-@font-face {
-  font-family: Wondertype;
-  src: url('fonts/WonderType-Regular.otf');
-} 
-
 body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0; 
   height: 100vh;
   justify-content: space-between;
 }
@@ -22,13 +17,6 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 30px;
-}
-
-
-a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #3b2409;
 }
 
 /* Header */
@@ -45,10 +33,11 @@ header {
 header .name {
   width: 800px;
   height: auto;
-  /* font-family: WonderType, Roboto, sans-serif;
-  font-size: 24px;
+}
+
+header .about {
+  font-size: 18px;
   color: #3b2409;
-  font-weight: 700; */
 }
 
 /* Hero section */
@@ -68,13 +57,11 @@ header .name {
   margin-right: 20px;
 }
 
-.title :nth-of-type(1) {
-  color: #3b2409;
-  font-weight: 700;
-  font-size: 48px;
+.title .main-text {
+  width: 250px;
 }
 
-.title :nth-of-type(2) {
+.title .subtext {
   font-size: 18px;
   color: #3b2409;
 }
