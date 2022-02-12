@@ -19,6 +19,11 @@ ul {
   gap: 30px;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 /* Header */
 header {
   background-color: #f5c300;
@@ -30,12 +35,12 @@ header {
   gap: 15px;
 }
 
-header .name {
+.name {
   width: 800px;
   height: auto;
 }
 
-header .about {
+.about {
   font-size: 18px;
   font-weight: 100;
   color: black;
@@ -68,52 +73,61 @@ header .about {
   color: #3b2409;
 }
 
-.hero .avatar {
+.avatar {
   max-height: 350px;
 }
 
-/* Information section */
-.info {
+/* Poster section */
+.poster-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 35px 0px 90px;
-}
-
-.info .random-text {
-  color: #f5c300;
-  font-size: 36px;
-  font-weight: 700;
-  padding-bottom: 35px;
-}
-
-.boxes.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   gap: 50px;
 }
 
-.boxes.container .sections {
+.stand {
+  width: 250px;
+  margin-top: 35px;
+}
+
+.content-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  width: 150px;
+  align-self: center;
+  width: 30%;
 }
 
-.box {
-  border: 3px solid #3882f6;
-  border-radius: 12px;
-  width: 150px;
-  height: 150px;
+.content {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
 }
 
-.box-text {
-  text-align: center;
-  color: grey;
+.number,
+.title {
+  color: #f5c300;
+  font-size: 50px;
+}
+
+.number {
+  font-weight: 800;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.description {
+  color: #3b2409;
+}
+
+.poster-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.poster {
+  width: 400px;
 }
 
 /* Quote section */
