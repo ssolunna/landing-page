@@ -8,6 +8,8 @@ body {
   flex-direction: column;
   margin: 0; 
   height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
   justify-content: space-between;
 }
 
@@ -18,6 +20,38 @@ ul {
   display: flex;
   gap: 30px;
 }
+
+ /* Change the description in all the sections (starts here) */
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.number,
+.title {
+  color: #f5c300;
+  font-size: 40px;
+}
+
+.number {
+  font-weight: 800;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.description {
+  color: #3b2409;
+}
+/* (ends here) */
 
 /* Header */
 header {
@@ -42,7 +76,7 @@ header {
 }
 
 /* Hero section */
-#hero-section {
+#hero {
   background-color: #f5c300;
   padding: 0px 200px 50px;
   display: flex;
@@ -72,49 +106,21 @@ header {
   max-height: 350px;
 }
 
-/* Poster section */
-#poster-section {
+/* Poster design section */
+#poster {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 50px;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 .stand {
-  width: 260px;
+  width: 230px;
   margin-top: 35px;
 }
 
-.content-box {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-}
-
-.content {
-  display: flex;
-  align-items: baseline;
-  gap: 15px;
-}
-
-.number,
-.title {
-  color: #f5c300;
-  font-size: 40px;
-}
-
-.number {
-  font-weight: 800;
-}
-
-.title {
-  font-weight: 500;
-}
-
-.description {
-  color: #3b2409;
-  font-size: 18px;
+#poster .content-box {
+  width: 420px;
 }
 
 .poster-box {
@@ -123,16 +129,16 @@ header {
 }
 
 .poster {
-  width: 400px;
+  width: 350px;
 }
 
-/* Logo section */
-#logo-section {
+/* Logo design section */
+#logo {
   background-color: #3b2409;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 80px;
+  padding: 90px 90px;
 }
 
 .shape-container {
@@ -192,40 +198,32 @@ header {
   width: 200px;
 }
 
-#logo-section .description {
+#logo .content-box {
+  width: 350px;
+}
+
+#logo .description {
   color: white;
 }
 
-#logo-section .content-box {
+/*  UI design section */
+#ui {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop {
+  width: 700px;
+}
+
+.laptop {
   width: 400px;
 }
 
-/*  Contact section */
-#contact {
-  display: flex;
-  background-color: #3ba0b0;
-  border-radius: 8px;
-  margin: 100px 200px;
-  padding: 40px 20px;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-}
-
-.call-action :nth-of-type(1) {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.contact button.signup {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 15px;
-  color: white;
-  background-color: #3ba0b0;
-  border-radius: 9px;
-  border: 2px solid white;
-  padding: 5px 30px;
+#ui .content-box {
+  margin-bottom: 100px;
 }
 
 /* Footer */
