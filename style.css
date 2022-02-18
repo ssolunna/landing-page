@@ -19,6 +19,11 @@ ul {
   gap: 30px;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 /* Header */
 header {
   background-color: #f5c300;
@@ -75,14 +80,13 @@ header {
 /* Poster section */
 .poster-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   gap: 50px;
-  padding-left: 80px;
 }
 
 .stand {
-  width: 260px;
+  width: 250px;
   margin-top: 35px;
 }
 
@@ -90,19 +94,19 @@ header {
   display: flex;
   flex-direction: column;
   align-self: center;
+  width: 30%;
 }
 
 .content {
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
   gap: 15px;
 }
 
 .number,
 .title {
   color: #f5c300;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .number {
@@ -110,12 +114,11 @@ header {
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .description {
   color: #3b2409;
-  font-size: 18px;
 }
 
 .poster-box {
@@ -127,85 +130,29 @@ header {
   width: 400px;
 }
 
-/* Logo section */
-.logo-section {
+/* Quote section */
+.quote {
   background-color: #3b2409;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 80px 80px;
-  gap: 5px;
-}
-
-.x {
-  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 310px;
   gap: 5px;
 }
 
-.shapes-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.quote .text {
+  color: #f5c300;
+  font-size: 36px;
+  font-weight: 100;
 }
 
-.shape-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.minicircle {
-  height: 100px;
-  width: 100px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.shape {
-  position: absolute;
-  height: 75px;
-}
-
-.plus {
-  color: white;
-  font-weight: 800;
-  font-size: 30px;
-}
-
-.shape-letters {
-  display: flex;
-  justify-content: center;
-}
-
-.w,
-.t {
-  color: white;
-  font-weight: 600;
-}
-
-.logo-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle {
-  height: 300px;
-  width: 300px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.wt-logo {
-  position: absolute;
-  width: 150px;
-}
-
-.logo-section .description {
-  color: white;
+.quote .author {
+  color: #f5c300;
+  font-weight: 700;
+  font-size: 22px;
+  align-self: flex-end;
+  margin-right: 30px;
 }
 
 /*  Contact section */
