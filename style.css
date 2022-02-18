@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-@font-face {
-  font-family: Wondertype;
-  src: url('fonts/WonderType-Regular.otf');
-} 
-
 body {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -24,36 +19,30 @@ ul {
   gap: 30px;
 }
 
-
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #3b2409;
+  color: #E5E7EB;
 }
 
 /* Header */
-header {
-  background-color: #f5c300;
+.header {
+  background-color: #1f2937;
   padding: 20px 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
 }
 
-header .name {
-  width: 800px;
-  height: auto;
-  /* font-family: WonderType, Roboto, sans-serif;
+.header-logo {
   font-size: 24px;
-  color: #3b2409;
-  font-weight: 700; */
+  color: #F9FAF8;
+  font-weight: 700;
 }
 
 /* Hero section */
 .hero {
-  background-color: #f5c300;
+  background-color: #1f2937;
   padding: 100px 200px;
   display: flex;
   align-items: center;
@@ -69,14 +58,14 @@ header .name {
 }
 
 .title :nth-of-type(1) {
-  color: #3b2409;
+  color: #F9FAF8;
   font-weight: 700;
   font-size: 48px;
 }
 
 .title :nth-of-type(2) {
   font-size: 18px;
-  color: #3b2409;
+  color: #E5E7EB;
 }
 
 .hero button.signup {
@@ -110,7 +99,7 @@ header .name {
 }
 
 .info .random-text {
-  color: #f5c300;
+  color: #1f2937;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 35px;
@@ -146,7 +135,7 @@ header .name {
 
 /* Quote section */
 .quote {
-  background-color: #3b2409;
+  background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,13 +145,13 @@ header .name {
 }
 
 .quote .text {
-  color: #f5c300;
+  color: #1f2937;
   font-size: 36px;
   font-weight: 100;
 }
 
 .quote .author {
-  color: #f5c300;
+  color: #1f2937;
   font-weight: 700;
   font-size: 22px;
   align-self: flex-end;
@@ -199,8 +188,8 @@ header .name {
 
 /* Footer */
 .footer {
-  background-color: #f5c300;
-  color: #3b2409;
+  background-color: #1f2937;
+  color: #E5E7EB;
   text-align: center;
   padding: 35px 200px;
 }
