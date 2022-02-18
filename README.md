@@ -4,4 +4,3 @@ This personal project was made mainly to showcase the `front-end development ski
 ## Acknowledgements
  - [Avatar](https://www.freepik.es/stephanie2212) - @Stephanie2212, modified by me
  - [Layout](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) - The Odin Project, modified by me
- - [Poster mockups](https://mockups-design.com) - Mockups-design
