@@ -51,7 +51,7 @@ header .about {
   flex: 1;
 }
 
-.about-me {
+.title {
   width: 550px;
   display: flex;
   flex-direction: column;
@@ -59,16 +59,16 @@ header .about {
   gap: 5px;
 }
 
-.about-me .main-text {
+.title .main-text {
   width: 250px;
 }
 
-.about-me .subtext {
+.title .subtext {
   font-size: 18px;
   color: #3b2409;
 }
 
-.hero .avatar {
+.hero .avatar-me {
   max-height: 350px;
 }
 
