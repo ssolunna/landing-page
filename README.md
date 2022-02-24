@@ -1,5 +1,5 @@
 # Landing page
-This project was made for [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)'s curriculum.
+This project was made for [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)'s curriculum. [Live preview](https://ssolunna.github.io/landing-page/).
 > **Note:** This webpage is meant for desktop devices only.
 ## Acknowledgements
  - [Layout](https://www.theodinproject.com/)
